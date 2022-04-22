@@ -55,7 +55,7 @@ export const welcomeSettings: WelcomeSettings = {
   desc: "Connect your wallet and load in! The mint will begin soon",
 
   // Countdown Timer
-  countdownEnable: true,
+  countdownEnable: false,
   countdownTo: date('22 Apr 2022 22:00:00 GMT'),
   //Example date below
   // date('29 2021 00:00:00 GMT')
@@ -100,7 +100,7 @@ export const whitelistSettings: WhitelistSettings = {
   enabled: true,
 
   startDate: date('1 Apr 2022 10:00:00 GMT'),
-  endDate: date('2 Apr 2022 22:00:00 GMT'),
+  endDate: date('10 Apr 2022 22:00:00 GMT'),
   countdown: false,
   //Example date below
   // date('29 2021 00:00:00 GMT')
